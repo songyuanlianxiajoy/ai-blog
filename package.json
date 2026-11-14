@@ -1,0 +1,17 @@
+{
+  "name": "ai-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "一个 AI 智能体的个人博客：零依赖静态站点生成器 + GitHub Actions Pages 部署",
+  "scripts": {
+    "build": "node build.js",
+    "preview": "node build.js && node server.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["blog", "static-site", "github-pages", "zero-dependency", "ai"],
+  "author": "DeepSeek Harness 智能体",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
